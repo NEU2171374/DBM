@@ -1,0 +1,437 @@
+[runAll] 变量: depth_walk_length = 10, s = 100000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 100000, depth_walk_length = 10, breadth_walk_length = 75, embed_size = 128
+--------------------------------------end--------------------------------------
+[runAll] 变量: depth_walk_length = 20, s = 100000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 100000, depth_walk_length = 20, breadth_walk_length = 75, embed_size = 128
+--------------------------------------end--------------------------------------
+[runAll] 变量: depth_walk_length = 30, s = 100000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 100000, depth_walk_length = 30, breadth_walk_length = 75, embed_size = 128
+--------------------------------------end--------------------------------------
+[runAll] 变量: depth_walk_length = 40, s = 100000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 100000, depth_walk_length = 40, breadth_walk_length = 75, embed_size = 128
+--------------------------------------end--------------------------------------
+[runAll] 变量: depth_walk_length = 50, s = 100000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 100000, depth_walk_length = 50, breadth_walk_length = 75, embed_size = 128
+--------------------------------------end--------------------------------------
+[runAll] 变量: breath_walk_length = 75, s = 100000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 100000, depth_walk_length = 10, breadth_walk_length = 75, embed_size = 128
+--------------------------------------end--------------------------------------
+[runAll] 变量: breath_walk_length = 100, s = 100000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 100000, depth_walk_length = 10, breadth_walk_length = 100, embed_size = 128
+--------------------------------------end--------------------------------------
+[runAll] 变量: breath_walk_length = 125, s = 100000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 100000, depth_walk_length = 10, breadth_walk_length = 125, embed_size = 128
+--------------------------------------end--------------------------------------
+[runAll] 变量: breath_walk_length = 150, s = 100000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 100000, depth_walk_length = 10, breadth_walk_length = 150, embed_size = 128
+读取数据开始！！！
+数据读取完成，生成训练集合和测试集合，用时： 22.959850 s
+完成5人
+hit:22,testlen:385,recommendlen:80
+precision:0.2750000,recall:0.0571429,F1:0.0946237
+完成10人
+hit:46,testlen:738,recommendlen:180
+precision:0.2555556,recall:0.0623306,F1:0.1002179
+完成15人
+hit:66,testlen:984,recommendlen:280
+precision:0.2357143,recall:0.0670732,F1:0.1044304
+完成20人
+hit:97,testlen:1194,recommendlen:380
+precision:0.2552632,recall:0.0812395,F1:0.1232529
+完成25人
+hit:119,testlen:1354,recommendlen:480
+precision:0.2479167,recall:0.0878877,F1:0.1297710
+完成30人
+hit:130,testlen:1478,recommendlen:580
+precision:0.2241379,recall:0.0879567,F1:0.1263362
+完成35人
+hit:143,testlen:1586,recommendlen:680
+precision:0.2102941,recall:0.0901639,F1:0.1262136
+完成40人
+hit:159,testlen:1680,recommendlen:780
+precision:0.2038462,recall:0.0946429,F1:0.1292683
+-------------总计-------------
+交集:162,测试集：1697,推荐数量：800
+目标人群生成相似人员完成，总用时： 252.582978 s
+--------------------------------------end--------------------------------------
+[runAll] 变量: breath_walk_length = 175, s = 100000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 100000, depth_walk_length = 10, breadth_walk_length = 175, embed_size = 128
+读取数据开始！！！
+数据读取完成，生成训练集合和测试集合，用时： 22.660275 s
+完成5人
+hit:22,testlen:385,recommendlen:80
+precision:0.2750000,recall:0.0571429,F1:0.0946237
+完成10人
+hit:46,testlen:738,recommendlen:180
+precision:0.2555556,recall:0.0623306,F1:0.1002179
+完成15人
+hit:63,testlen:984,recommendlen:280
+precision:0.2250000,recall:0.0640244,F1:0.0996835
+完成20人
+hit:93,testlen:1194,recommendlen:380
+precision:0.2447368,recall:0.0778894,F1:0.1181703
+完成25人
+hit:114,testlen:1354,recommendlen:480
+precision:0.2375000,recall:0.0841950,F1:0.1243184
+完成30人
+hit:125,testlen:1478,recommendlen:580
+precision:0.2155172,recall:0.0845737,F1:0.1214772
+完成35人
+hit:138,testlen:1586,recommendlen:680
+precision:0.2029412,recall:0.0870113,F1:0.1218005
+完成40人
+hit:154,testlen:1680,recommendlen:780
+precision:0.1974359,recall:0.0916667,F1:0.1252033
+-------------总计-------------
+交集:156,测试集：1697,推荐数量：800
+目标人群生成相似人员完成，总用时： 245.748028 s
+--------------------------------------end--------------------------------------
+[runAll] 变量: breath_walk_length = 200, s = 100000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 100000, depth_walk_length = 10, breadth_walk_length = 200, embed_size = 128
+读取数据开始！！！
+数据读取完成，生成训练集合和测试集合，用时： 23.187093 s
+完成5人
+hit:21,testlen:385,recommendlen:80
+precision:0.2625000,recall:0.0545455,F1:0.0903226
+完成10人
+hit:45,testlen:738,recommendlen:180
+precision:0.2500000,recall:0.0609756,F1:0.0980392
+完成15人
+hit:61,testlen:984,recommendlen:280
+precision:0.2178571,recall:0.0619919,F1:0.0965190
+完成20人
+hit:86,testlen:1194,recommendlen:380
+precision:0.2263158,recall:0.0720268,F1:0.1092757
+完成25人
+hit:109,testlen:1354,recommendlen:480
+precision:0.2270833,recall:0.0805022,F1:0.1188659
+完成30人
+hit:119,testlen:1478,recommendlen:580
+precision:0.2051724,recall:0.0805142,F1:0.1156463
+完成35人
+hit:133,testlen:1586,recommendlen:680
+precision:0.1955882,recall:0.0838588,F1:0.1173875
+完成40人
+hit:150,testlen:1680,recommendlen:780
+precision:0.1923077,recall:0.0892857,F1:0.1219512
+-------------总计-------------
+交集:152,测试集：1697,推荐数量：800
+目标人群生成相似人员完成，总用时： 251.380354 s
+--------------------------------------end--------------------------------------
+[runAll] 变量: embed_size = 128, s = 100000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 100000, depth_walk_length = 10, breadth_walk_length = 200, embed_size = 128
+读取数据开始！！！
+数据读取完成，生成训练集合和测试集合，用时： 22.613377 s
+完成5人
+hit:21,testlen:385,recommendlen:80
+precision:0.2625000,recall:0.0545455,F1:0.0903226
+完成10人
+hit:45,testlen:738,recommendlen:180
+precision:0.2500000,recall:0.0609756,F1:0.0980392
+完成15人
+hit:61,testlen:984,recommendlen:280
+precision:0.2178571,recall:0.0619919,F1:0.0965190
+完成20人
+hit:86,testlen:1194,recommendlen:380
+precision:0.2263158,recall:0.0720268,F1:0.1092757
+完成25人
+hit:109,testlen:1354,recommendlen:480
+precision:0.2270833,recall:0.0805022,F1:0.1188659
+完成30人
+hit:119,testlen:1478,recommendlen:580
+precision:0.2051724,recall:0.0805142,F1:0.1156463
+完成35人
+hit:133,testlen:1586,recommendlen:680
+precision:0.1955882,recall:0.0838588,F1:0.1173875
+完成40人
+hit:150,testlen:1680,recommendlen:780
+precision:0.1923077,recall:0.0892857,F1:0.1219512
+-------------总计-------------
+交集:152,测试集：1697,推荐数量：800
+目标人群生成相似人员完成，总用时： 251.252461 s
+--------------------------------------end--------------------------------------
+[runAll] 变量: embed_size = 256, s = 100000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 100000, depth_walk_length = 10, breadth_walk_length = 200, embed_size = 256
+读取数据开始！！！
+数据读取完成，生成训练集合和测试集合，用时： 23.184071 s
+完成5人
+hit:26,testlen:385,recommendlen:80
+precision:0.3250000,recall:0.0675325,F1:0.1118280
+完成10人
+hit:46,testlen:738,recommendlen:180
+precision:0.2555556,recall:0.0623306,F1:0.1002179
+完成15人
+hit:64,testlen:984,recommendlen:280
+precision:0.2285714,recall:0.0650407,F1:0.1012658
+完成20人
+hit:91,testlen:1194,recommendlen:380
+precision:0.2394737,recall:0.0762144,F1:0.1156290
+完成25人
+hit:114,testlen:1354,recommendlen:480
+precision:0.2375000,recall:0.0841950,F1:0.1243184
+完成30人
+hit:126,testlen:1478,recommendlen:580
+precision:0.2172414,recall:0.0852503,F1:0.1224490
+完成35人
+hit:140,testlen:1586,recommendlen:680
+precision:0.2058824,recall:0.0882724,F1:0.1235658
+完成40人
+hit:157,testlen:1680,recommendlen:780
+precision:0.2012821,recall:0.0934524,F1:0.1276423
+-------------总计-------------
+交集:160,测试集：1697,推荐数量：800
+目标人群生成相似人员完成，总用时： 281.571650 s
+--------------------------------------end--------------------------------------
+[runAll] 变量: embed_size = 384, s = 100000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 100000, depth_walk_length = 10, breadth_walk_length = 200, embed_size = 384
+读取数据开始！！！
+数据读取完成，生成训练集合和测试集合，用时： 23.269525 s
+完成5人
+hit:27,testlen:385,recommendlen:80
+precision:0.3375000,recall:0.0701299,F1:0.1161290
+完成10人
+hit:49,testlen:738,recommendlen:180
+precision:0.2722222,recall:0.0663957,F1:0.1067538
+完成15人
+hit:69,testlen:984,recommendlen:280
+precision:0.2464286,recall:0.0701220,F1:0.1091772
+完成20人
+hit:100,testlen:1194,recommendlen:380
+precision:0.2631579,recall:0.0837521,F1:0.1270648
+完成25人
+hit:120,testlen:1354,recommendlen:480
+precision:0.2500000,recall:0.0886263,F1:0.1308615
+完成30人
+hit:131,testlen:1478,recommendlen:580
+precision:0.2258621,recall:0.0886333,F1:0.1273081
+完成35人
+hit:142,testlen:1586,recommendlen:680
+precision:0.2088235,recall:0.0895334,F1:0.1253310
+完成40人
+hit:157,testlen:1680,recommendlen:780
+precision:0.2012821,recall:0.0934524,F1:0.1276423
+-------------总计-------------
+交集:158,测试集：1697,推荐数量：800
+目标人群生成相似人员完成，总用时： 295.575036 s
+--------------------------------------end--------------------------------------
+[runAll] 变量: embed_size = 512, s = 100000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 100000, depth_walk_length = 10, breadth_walk_length = 200, embed_size = 512
+读取数据开始！！！
+数据读取完成，生成训练集合和测试集合，用时： 23.549466 s
+完成5人
+hit:20,testlen:385,recommendlen:80
+precision:0.2500000,recall:0.0519481,F1:0.0860215
+完成10人
+hit:38,testlen:738,recommendlen:180
+precision:0.2111111,recall:0.0514905,F1:0.0827887
+完成15人
+hit:58,testlen:984,recommendlen:280
+precision:0.2071429,recall:0.0589431,F1:0.0917722
+完成20人
+hit:83,testlen:1194,recommendlen:380
+precision:0.2184211,recall:0.0695142,F1:0.1054638
+完成25人
+hit:103,testlen:1354,recommendlen:480
+precision:0.2145833,recall:0.0760709,F1:0.1123228
+完成30人
+hit:117,testlen:1478,recommendlen:580
+precision:0.2017241,recall:0.0791610,F1:0.1137026
+完成35人
+hit:128,testlen:1586,recommendlen:680
+precision:0.1882353,recall:0.0807062,F1:0.1129744
+完成40人
+hit:143,testlen:1680,recommendlen:780
+precision:0.1833333,recall:0.0851190,F1:0.1162602
+-------------总计-------------
+交集:145,测试集：1697,推荐数量：800
+目标人群生成相似人员完成，总用时： 245.600223 s
+--------------------------------------end--------------------------------------
+[runAll] 变量: top_people = 5, s = 100000
+[run] 推荐参数：top_N = 20, top_people = 5, s = 100000, depth_walk_length = 10, breadth_walk_length = 75, embed_size = 128
+--------------------------------------end--------------------------------------
+[runAll] 变量: top_people = 10, s = 100000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 100000, depth_walk_length = 10, breadth_walk_length = 75, embed_size = 128
+--------------------------------------end--------------------------------------
+[runAll] 变量: top_people = 15, s = 100000
+[run] 推荐参数：top_N = 20, top_people = 15, s = 100000, depth_walk_length = 10, breadth_walk_length = 75, embed_size = 128
+--------------------------------------end--------------------------------------
+[runAll] 变量: top_people = 20, s = 100000
+[run] 推荐参数：top_N = 20, top_people = 20, s = 100000, depth_walk_length = 10, breadth_walk_length = 75, embed_size = 128
+--------------------------------------end--------------------------------------
+[runAll] 变量: top_people = 25, s = 100000
+[run] 推荐参数：top_N = 20, top_people = 25, s = 100000, depth_walk_length = 10, breadth_walk_length = 75, embed_size = 128
+--------------------------------------end--------------------------------------
+[runAll] 变量: top_people = 30, s = 100000
+[run] 推荐参数：top_N = 20, top_people = 30, s = 100000, depth_walk_length = 10, breadth_walk_length = 75, embed_size = 128
+--------------------------------------end--------------------------------------
+[runAll] 变量: top_n = 10, s = 100000
+[run] 推荐参数：top_N = 10, top_people = 10, s = 100000, depth_walk_length = 10, breadth_walk_length = 75, embed_size = 128
+--------------------------------------end--------------------------------------
+[runAll] 变量: top_n = 20, s = 100000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 100000, depth_walk_length = 10, breadth_walk_length = 75, embed_size = 128
+--------------------------------------end--------------------------------------
+[runAll] 变量: top_n = 30, s = 100000
+[run] 推荐参数：top_N = 30, top_people = 10, s = 100000, depth_walk_length = 10, breadth_walk_length = 75, embed_size = 128
+--------------------------------------end--------------------------------------
+[runAll] 变量: top_n = 40, s = 100000
+[run] 推荐参数：top_N = 40, top_people = 10, s = 100000, depth_walk_length = 10, breadth_walk_length = 75, embed_size = 128
+--------------------------------------end--------------------------------------
+[runAll] 变量: top_n = 50, s = 100000
+[run] 推荐参数：top_N = 50, top_people = 10, s = 100000, depth_walk_length = 10, breadth_walk_length = 75, embed_size = 128
+--------------------------------------end--------------------------------------
+[runAll] 变量: depth_walk_length = 10, s = 10000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 10000, depth_walk_length = 10, breadth_walk_length = 75, embed_size = 128
+读取数据开始！！！
+数据读取完成，生成训练集合和测试集合，用时： 29.081531 s
+错误: <class 'Exception'>
+--------------------------------------end--------------------------------------
+[runAll] 变量: depth_walk_length = 20, s = 10000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 10000, depth_walk_length = 20, breadth_walk_length = 75, embed_size = 128
+读取数据开始！！！
+数据读取完成，生成训练集合和测试集合，用时： 28.746846 s
+错误: <class 'Exception'>
+--------------------------------------end--------------------------------------
+[runAll] 变量: depth_walk_length = 30, s = 10000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 10000, depth_walk_length = 30, breadth_walk_length = 75, embed_size = 128
+读取数据开始！！！
+数据读取完成，生成训练集合和测试集合，用时： 29.019099 s
+错误: <class 'Exception'>
+--------------------------------------end--------------------------------------
+[runAll] 变量: depth_walk_length = 40, s = 10000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 10000, depth_walk_length = 40, breadth_walk_length = 75, embed_size = 128
+读取数据开始！！！
+数据读取完成，生成训练集合和测试集合，用时： 29.456756 s
+错误: <class 'Exception'>
+--------------------------------------end--------------------------------------
+[runAll] 变量: depth_walk_length = 50, s = 10000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 10000, depth_walk_length = 50, breadth_walk_length = 75, embed_size = 128
+读取数据开始！！！
+数据读取完成，生成训练集合和测试集合，用时： 29.302314 s
+错误: <class 'Exception'>
+--------------------------------------end--------------------------------------
+[runAll] 变量: breath_walk_length = 75, s = 10000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 10000, depth_walk_length = 10, breadth_walk_length = 75, embed_size = 128
+读取数据开始！！！
+数据读取完成，生成训练集合和测试集合，用时： 29.316945 s
+错误: <class 'Exception'>
+--------------------------------------end--------------------------------------
+[runAll] 变量: breath_walk_length = 100, s = 10000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 10000, depth_walk_length = 10, breadth_walk_length = 100, embed_size = 128
+读取数据开始！！！
+数据读取完成，生成训练集合和测试集合，用时： 29.031937 s
+错误: <class 'Exception'>
+--------------------------------------end--------------------------------------
+[runAll] 变量: breath_walk_length = 125, s = 10000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 10000, depth_walk_length = 10, breadth_walk_length = 125, embed_size = 128
+读取数据开始！！！
+数据读取完成，生成训练集合和测试集合，用时： 28.750665 s
+错误: <class 'Exception'>
+--------------------------------------end--------------------------------------
+[runAll] 变量: breath_walk_length = 150, s = 10000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 10000, depth_walk_length = 10, breadth_walk_length = 150, embed_size = 128
+读取数据开始！！！
+数据读取完成，生成训练集合和测试集合，用时： 28.818682 s
+错误: <class 'Exception'>
+--------------------------------------end--------------------------------------
+[runAll] 变量: breath_walk_length = 175, s = 10000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 10000, depth_walk_length = 10, breadth_walk_length = 175, embed_size = 128
+读取数据开始！！！
+数据读取完成，生成训练集合和测试集合，用时： 29.380491 s
+错误: <class 'Exception'>
+--------------------------------------end--------------------------------------
+[runAll] 变量: breath_walk_length = 200, s = 10000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 10000, depth_walk_length = 10, breadth_walk_length = 200, embed_size = 128
+读取数据开始！！！
+数据读取完成，生成训练集合和测试集合，用时： 29.361148 s
+错误: <class 'Exception'>
+--------------------------------------end--------------------------------------
+[runAll] 变量: embed_size = 128, s = 10000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 10000, depth_walk_length = 10, breadth_walk_length = 200, embed_size = 128
+读取数据开始！！！
+数据读取完成，生成训练集合和测试集合，用时： 29.191708 s
+错误: <class 'Exception'>
+--------------------------------------end--------------------------------------
+[runAll] 变量: embed_size = 256, s = 10000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 10000, depth_walk_length = 10, breadth_walk_length = 200, embed_size = 256
+读取数据开始！！！
+数据读取完成，生成训练集合和测试集合，用时： 29.401785 s
+错误: <class 'Exception'>
+--------------------------------------end--------------------------------------
+[runAll] 变量: embed_size = 384, s = 10000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 10000, depth_walk_length = 10, breadth_walk_length = 200, embed_size = 384
+读取数据开始！！！
+数据读取完成，生成训练集合和测试集合，用时： 29.564236 s
+错误: <class 'Exception'>
+--------------------------------------end--------------------------------------
+[runAll] 变量: embed_size = 512, s = 10000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 10000, depth_walk_length = 10, breadth_walk_length = 200, embed_size = 512
+读取数据开始！！！
+数据读取完成，生成训练集合和测试集合，用时： 29.113280 s
+错误: <class 'Exception'>
+--------------------------------------end--------------------------------------
+[runAll] 变量: top_people = 5, s = 10000
+[run] 推荐参数：top_N = 20, top_people = 5, s = 10000, depth_walk_length = 10, breadth_walk_length = 75, embed_size = 128
+读取数据开始！！！
+数据读取完成，生成训练集合和测试集合，用时： 28.994239 s
+错误: <class 'Exception'>
+--------------------------------------end--------------------------------------
+[runAll] 变量: top_people = 10, s = 10000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 10000, depth_walk_length = 10, breadth_walk_length = 75, embed_size = 128
+读取数据开始！！！
+数据读取完成，生成训练集合和测试集合，用时： 29.201372 s
+错误: <class 'Exception'>
+--------------------------------------end--------------------------------------
+[runAll] 变量: top_people = 15, s = 10000
+[run] 推荐参数：top_N = 20, top_people = 15, s = 10000, depth_walk_length = 10, breadth_walk_length = 75, embed_size = 128
+读取数据开始！！！
+数据读取完成，生成训练集合和测试集合，用时： 28.863430 s
+错误: <class 'Exception'>
+--------------------------------------end--------------------------------------
+[runAll] 变量: top_people = 20, s = 10000
+[run] 推荐参数：top_N = 20, top_people = 20, s = 10000, depth_walk_length = 10, breadth_walk_length = 75, embed_size = 128
+读取数据开始！！！
+数据读取完成，生成训练集合和测试集合，用时： 28.748413 s
+错误: <class 'Exception'>
+--------------------------------------end--------------------------------------
+[runAll] 变量: top_people = 25, s = 10000
+[run] 推荐参数：top_N = 20, top_people = 25, s = 10000, depth_walk_length = 10, breadth_walk_length = 75, embed_size = 128
+读取数据开始！！！
+数据读取完成，生成训练集合和测试集合，用时： 29.346070 s
+错误: <class 'Exception'>
+--------------------------------------end--------------------------------------
+[runAll] 变量: top_people = 30, s = 10000
+[run] 推荐参数：top_N = 20, top_people = 30, s = 10000, depth_walk_length = 10, breadth_walk_length = 75, embed_size = 128
+读取数据开始！！！
+数据读取完成，生成训练集合和测试集合，用时： 29.842606 s
+错误: <class 'Exception'>
+--------------------------------------end--------------------------------------
+[runAll] 变量: top_n = 10, s = 10000
+[run] 推荐参数：top_N = 10, top_people = 10, s = 10000, depth_walk_length = 10, breadth_walk_length = 75, embed_size = 128
+读取数据开始！！！
+数据读取完成，生成训练集合和测试集合，用时： 29.243855 s
+错误: <class 'Exception'>
+--------------------------------------end--------------------------------------
+[runAll] 变量: top_n = 20, s = 10000
+[run] 推荐参数：top_N = 20, top_people = 10, s = 10000, depth_walk_length = 10, breadth_walk_length = 75, embed_size = 128
+读取数据开始！！！
+数据读取完成，生成训练集合和测试集合，用时： 29.440017 s
+错误: <class 'Exception'>
+--------------------------------------end--------------------------------------
+[runAll] 变量: top_n = 30, s = 10000
+[run] 推荐参数：top_N = 30, top_people = 10, s = 10000, depth_walk_length = 10, breadth_walk_length = 75, embed_size = 128
+读取数据开始！！！
+数据读取完成，生成训练集合和测试集合，用时： 29.453888 s
+错误: <class 'Exception'>
+--------------------------------------end--------------------------------------
+[runAll] 变量: top_n = 40, s = 10000
+[run] 推荐参数：top_N = 40, top_people = 10, s = 10000, depth_walk_length = 10, breadth_walk_length = 75, embed_size = 128
+读取数据开始！！！
+数据读取完成，生成训练集合和测试集合，用时： 29.465910 s
+错误: <class 'Exception'>
+--------------------------------------end--------------------------------------
+[runAll] 变量: top_n = 50, s = 10000
+[run] 推荐参数：top_N = 50, top_people = 10, s = 10000, depth_walk_length = 10, breadth_walk_length = 75, embed_size = 128
+读取数据开始！！！
+数据读取完成，生成训练集合和测试集合，用时： 29.481016 s
+错误: <class 'Exception'>
+--------------------------------------end--------------------------------------
